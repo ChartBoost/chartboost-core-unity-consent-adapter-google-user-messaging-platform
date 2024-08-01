@@ -1,0 +1,19 @@
+{
+  "name": "com.chartboost.core.consent.google-user-messaging-platform",
+  "displayName": "Chartboost Core Consent Google User Messaging Platform",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.chartboost.core": "1.0.0",
+    "com.chartboost.unity.utilities.google": "1.0.0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Chartboost",
+    "email": "",
+    "url": "https://chartboost.com"
+  },
+  "homepage": "https://chartboost.com",
+  "description": "Google User Messaging Platform adapters for mediating through Chartboost Core.."
+}

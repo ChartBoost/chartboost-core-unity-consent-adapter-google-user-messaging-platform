@@ -1,0 +1,22 @@
+{
+    "name": "Chartboost.Core.Consent.Google.UserMessagingPlatform.IOS",
+    "rootNamespace": "Chartboost.Core.Google.UserMessagingPlatform.iOS",
+    "references": [
+        "Chartboost.Core.Consent.Google.UserMessagingPlatform",
+        "Chartboost.Core",
+        "Chartboost.Core.IOS",
+        "Chartboost.Utilities.IOS"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
