@@ -1,0 +1,21 @@
+{
+    "name": "Chartboost.Core.Consent.Google.UserMessagingPlatform.Android",
+    "rootNamespace": "Chartboost.Core.Google.UserMessagingPlatform.Android",
+    "references": [
+        "Chartboost.Core.Consent.Google.UserMessagingPlatform",
+        "Chartboost.Core",
+        "Chartboost.Core.Android"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

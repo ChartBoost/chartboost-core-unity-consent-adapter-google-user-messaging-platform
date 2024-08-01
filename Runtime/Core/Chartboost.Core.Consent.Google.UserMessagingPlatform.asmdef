@@ -1,0 +1,16 @@
+{
+    "name": "Chartboost.Core.Consent.Google.UserMessagingPlatform",
+    "rootNamespace": "Chartboost.Core.Google.UserMessagingPlatform",
+    "references": [
+        "Chartboost.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
