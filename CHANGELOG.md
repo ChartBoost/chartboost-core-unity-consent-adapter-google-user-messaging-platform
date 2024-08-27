@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file using the st
 Note the first digit of every adapter version corresponds to the major version of the Chartboost Core SDK compatible with that adapter. 
 Adapters are compatible with any Chartboost Core SDK version within that major version.
 
+### Version 1.0.1
+
+This version of the Google User Messaging Platform Adapter supports the following native SDK dependencies:
+* Android: `com.chartboost:chartboost-core-consent-adapter-google-user-messaging-platform:1.2.2.+`
+* iOS: `ChartboostCoreConsentAdapterGoogleUserMessagingPlatform ~> 1.2.4.0` 
+
 ### Version 1.0.0 *(2024-08-01)*
 This version of the Google User Messaging Platform Adapter supports the following native SDK dependencies:
 * Android: `com.chartboost:chartboost-core-consent-adapter-google-user-messaging-platform:1.2.2.+`
@@ -14,4 +20,4 @@ First version of the Google User Messaging Platform Adapter.
 Added: 
 
 - `GoogleUserMessagingPlatformAdapter` module to be utilized with `ChartboostCore`.
-- `DebugSettings`property in `GoogleUserMessagingPlatformAdapter` to test the Google User Messaging Platform
+- `DebugSettings`property in `GoogleUserMessagingPlatformAdapter` to test the Google User Messaging Platform.
