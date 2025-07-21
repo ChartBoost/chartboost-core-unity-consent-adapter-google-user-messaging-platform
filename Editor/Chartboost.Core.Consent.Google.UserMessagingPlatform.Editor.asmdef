@@ -1,0 +1,21 @@
+{
+    "name": "Chartboost.Core.Consent.Google.UserMessagingPlatform.Editor",
+    "rootNamespace": "Chartboost.Core.Consent.Google.UserMessagingPlatform.Editor",
+    "references": [
+        "Chartboost.Core",
+        "Chartboost.Logging",
+        "Chartboost.Core.Consent.Google.UserMessagingPlatform",
+        "Chartboost.Utilities"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

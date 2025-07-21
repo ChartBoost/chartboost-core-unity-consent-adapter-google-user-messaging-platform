@@ -2,6 +2,7 @@
 #import "ChartboostCoreConsentAdapterGoogleUserMessagingPlatform-Swift.h"
 #import "UserMessagingPlatform/UserMessagingPlatform.h"
 
+NSString* const CBCGoogleUMPTAG = @"CBCGoogleUMP";
 
 extern "C" {
 
@@ -19,10 +20,11 @@ extern "C" {
         }
 
         [debugSettings setTestDeviceIdentifiers:testDeviceIdentifiers];
+        [[CBLUnityLoggingBridge sharedLogger] logWithTag:CBCGoogleUMPTAG log:@"Test Device Identifiers set" logLevel:CBLLogLevelVerbose];
         [debugSettings setGeography:(UMPDebugGeography)debugGeography];
+        [[CBLUnityLoggingBridge sharedLogger] logWithTag:CBCGoogleUMPTAG log:[NSString stringWithFormat:@"DebugGeography set to %ld", (UMPDebugGeography)debugGeography] logLevel:CBLLogLevelVerbose];
 
         [CBCGoogleUserMessagingPlatformAdapter setDebugSettings:debugSettings];
-
         id<CBCModule> userMessagingPlatformAdapter = [[CBCGoogleUserMessagingPlatformAdapter alloc] init];
         [[CBCUnityObserver sharedObserver] storeModule:userMessagingPlatformAdapter];
         return (__bridge void*)userMessagingPlatformAdapter;
