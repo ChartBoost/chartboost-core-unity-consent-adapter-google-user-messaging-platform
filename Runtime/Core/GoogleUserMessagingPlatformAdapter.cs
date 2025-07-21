@@ -9,7 +9,7 @@ namespace Chartboost.Core.Google.UserMessagingPlatform
     public sealed class GoogleUserMessagingPlatformAdapter : NativeModuleWrapper<GoogleUserMessagingPlatformAdapter>
     {
         protected override string DefaultModuleId => "google_user_messaging_platform";
-        protected override string DefaultModuleVersion => "1.0.3";
+        protected override string DefaultModuleVersion => "1.0.4";
 
         /// <inheritdoc cref="ConsentDebugSettings"/>
         public ConsentDebugSettings? DebugSettings { get; }
