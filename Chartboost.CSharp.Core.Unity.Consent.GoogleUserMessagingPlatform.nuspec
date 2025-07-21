@@ -2,9 +2,9 @@
 <package>
   <metadata>
     <id>Chartboost.CSharp.Core.Unity.Consent.GoogleUserMessagingPlatform</id>
-    <version>1.0.2</version>
-    <title>Chartboost Core Consent - Google User Messaging Platform</title>
-    <description>Google User Messaging Platform adapters for mediating through Chartboost Core..</description>
+    <version>1.0.3</version>
+    <title>Chartboost Core - Consent Google User Messaging Platform</title>
+    <description>Google User Messaging Platform adapters for mediating through Chartboost Core.</description>
     <authors>Chartboost</authors>
     <owners>Chartboost</owners>
     <license type="file">LICENSE.md</license>

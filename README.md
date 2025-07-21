@@ -19,7 +19,7 @@ Chartboost Core - Google User Messaging Platform Adapter is distributed using th
 
 ```json
   "dependencies": {
-    "com.chartboost.core.consent.google-user-messaging-platform": "1.0.0",
+    "com.chartboost.core.consent.google-user-messaging-platform": "1.0.3",
     ...
   },
   "scopedRegistries": [
@@ -98,7 +98,7 @@ ConsentDebugSettings consentDebugSettings = new ConsentDebugSettings(DebugGeogra
 GoogleUserMessagingPlatformAdapter googleUserMessagingPlatform = new GoogleUserMessagingPlatformAdapter(consentDebugSettings);
 ```
 
-# Chartboost - Google Utilities
+# Chartboost - Google Utilities for AndroidManifest.xml & Info.plist
 In order for the Google User Messaging Platform to initialize the `application ID` must be added to the `AndroidManifest.xml` & `Info.plist`. Chartboost provides this functionality through its dependency package for Google adapters. 
 
 Simply click on the Editor menu: `Chartboost/Google/Configure` and set your `application ID` as needed. This configuration is shared for all Google packages possibly integrated, e.g: Google User Messaging Platform, AdMob, Google Bidding, etc.
