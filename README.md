@@ -19,7 +19,7 @@ Chartboost Core - Google User Messaging Platform Adapter is distributed using th
 
 ```json
   "dependencies": {
-    "com.chartboost.core.consent.google-user-messaging-platform": "1.0.3",
+    "com.chartboost.core.consent.google-user-messaging-platform": "1.0.4",
     ...
   },
   "scopedRegistries": [

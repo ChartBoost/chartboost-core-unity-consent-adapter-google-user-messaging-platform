@@ -1,7 +1,7 @@
 {
   "name": "com.chartboost.core.consent.google-user-messaging-platform",
   "displayName": "Chartboost Core - Consent Google User Messaging Platform",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "unity": "2022.3",
   "dependencies": {
     "com.chartboost.core": "1.0.0",
